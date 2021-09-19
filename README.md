@@ -84,11 +84,11 @@ We provide some models with different backbones and results of object detection 
 
 | Backbone | MS train | Lr schd | Inf time (fps) | bbox AP | Config | Download|
 |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-| ResNet-50 | No | 2x | 6.1 | 41.5 | [config] | [model] |
-| ResNet-101 | No | 2x | 5.0 | 42.8 | [config] | [model] |
-|ResNeXt-101-32x4d | No | 2x | 4.2 | 44.4 | [config] | [model] |
-|ResNeXt-101-32x4d | Yes | 2x | 4.2 | 46.0 | [config] | [model] |
-|ResNeXt-101_64x4d | Yes | 2x | 3.1 | 46.8 | [config] | [model] |
+| ResNet-50 | No | 2x | 6.1 | 41.5 | [config](https://github.com/shouwangzhe134/Decoupled-R-CNN/blob/main/configs/decoupled_rcnn/coco/decoupled_refine_rcnn_r50_fpn_2x_coco.py) | [model] |
+| ResNet-101 | No | 2x | 5.0 | 42.8 | [config](https://github.com/shouwangzhe134/Decoupled-R-CNN/blob/main/configs/decoupled_rcnn/coco/decoupled_refine_rcnn_r101_fpn_2x_coco.py) | [model] |
+|ResNeXt-101-32x4d | No | 2x | 4.2 | 44.4 | [config](https://github.com/shouwangzhe134/Decoupled-R-CNN/blob/main/configs/decoupled_rcnn/coco/decoupled_refine_rcnn_x101_32x4d_fpn_2x_coco.py) | [model] |
+|ResNeXt-101-32x4d | Yes | 2x | 4.2 | 46.0 | [config](https://github.com/shouwangzhe134/Decoupled-R-CNN/blob/main/configs/decoupled_rcnn/coco/decoupled_refine_rcnn_x101_32x4d_fpn_mstrain_2x_coco.py) | [model] |
+|ResNeXt-101_64x4d | Yes | 2x | 3.1 | 46.8 | [config](https://github.com/shouwangzhe134/Decoupled-R-CNN/blob/main/configs/decoupled_rcnn/coco/decoupled_refine_rcnn_x101_64x4d_fpn_mstrain_2x_coco.py) | [model] |
 
 - The models based on MS training use soft-NMS at inference.
 
