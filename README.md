@@ -80,7 +80,7 @@ python tools/test.py ${CONFIG_FILE} ${CHECKPOINT_FILE} [--out ${RESULT_FILE}] [-
 
 ## Results
 
-We provide some models with different backbones and results of object detection on MS COCO dateset.
+We provide some models with different backbones and results of object detection on MS COCO validation.
 
 | Backbone | MS train | Lr schd | Inf time (fps) | bbox AP | Config | Download|
 |:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
