@@ -90,7 +90,7 @@ We provide some models with different backbones and results of object detection 
 |ResNeXt-101-32x4d | Yes | 2x | 4.2 | 46.0 | [config](https://github.com/shouwangzhe134/Decoupled-R-CNN/blob/main/configs/decoupled_rcnn/coco/decoupled_refine_rcnn_x101_32x4d_fpn_mstrain_2x_coco.py) | [model](https://1drv.ms/u/s!Agx-U0bs-cGkm2FAIG9Z5G8Mzbl3?e=00JyYo) |
 |ResNeXt-101_64x4d | Yes | 2x | 3.1 | 46.8 | [config](https://github.com/shouwangzhe134/Decoupled-R-CNN/blob/main/configs/decoupled_rcnn/coco/decoupled_refine_rcnn_x101_64x4d_fpn_mstrain_2x_coco.py) | [model](https://1drv.ms/u/s!Agx-U0bs-cGkm2Pj1lxlmVS6AXcl?e=BhrBoB) |
 
-- The models based on MS training use soft-NMS at inference.
+- Note that the models based on MS training use soft-NMS at inference.
 
 
 ## Acknowledgement
