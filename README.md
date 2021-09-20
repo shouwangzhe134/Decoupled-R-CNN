@@ -75,7 +75,7 @@ python tools/test.py ${CONFIG_FILE} ${CHECKPOINT_FILE} [--out ${RESULT_FILE}] [-
 ./tools/dist_test.sh ${CONFIG_FILE} ${CHECKPOINT_FILE} ${GPU_NUM} [--out ${RESULT_FILE}] [--eval ${EVAL_METRICS}]
 ```
 
-- CONFIG_FILE about D2Det is in [configs/decoupled_rcnn](configs/decoupled_rcnn), please refer to [getting_started.md](docs/getting_started.md) for more details.
+- CONFIG_FILE about Decoupled R-CNN is in [configs/decoupled_rcnn](configs/decoupled_rcnn), please refer to [getting_started.md](docs/getting_started.md) for more details.
 
 
 ## Results
